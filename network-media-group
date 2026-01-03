@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Network Media Group Perú</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b0b0f;color:#fff}
+    header{background:linear-gradient(90deg,#3b6cff,#7b3cff);padding:24px}
+    header h1{margin:0;font-size:32px}
+    header p{margin:6px 0 0;opacity:.9}
+    nav{display:flex;gap:16px;margin-top:12px}
+    nav a{color:#fff;text-decoration:none;font-weight:bold}
+    section{padding:40px 24px;max-width:1100px;margin:auto}
+    .card{background:#151523;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    footer{background:#0f1020;padding:24px;text-align:center;opacity:.85}
+    .badge{display:inline-block;background:#7b3cff;padding:6px 10px;border-radius:999px;font-size:12px}
+    button{background:#3b6cff;border:none;color:#fff;padding:12px 18px;border-radius:12px;font-weight:bold;cursor:pointer}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Network Media Group Perú</h1>
+    <p>Operador de medios · Señal abierta · NEXT Network TV</p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#canal">Canal</a>
+      <a href="#programacion">Programación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="card">
+      <h2>Bienvenidos</h2>
+      <p>Somos una empresa peruana dedicada a la producción y transmisión de contenidos televisivos, informativos y de entretenimiento.</p>
+      <span class="badge">Programación 19+ (acompañada de un adulto)</span>
+    </div>
+  </section>
+
+  <section id="canal">
+    <h2>Nuestro Canal</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>NEXT Network TV</h3>
+        <p>Señal abierta nacional (proyecto).</p>
+      </div>
+      <div class="card">
+        <h3>Producción</h3>
+        <p>Noticias, entretenimiento, especiales y transmisiones en vivo.</p>
+      </div>
+      <div class="card">
+        <h3>Home Studio</h3>
+        <p>Operación inicial con estudio compacto y expansión progresiva.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="programacion">
+    <h2>Programación</h2>
+    <div class="card">
+      <ul>
+        <li>Informativos</li>
+        <li>Entretenimiento</li>
+        <li>Especiales</li>
+        <li>Eventos</li>
+      </ul>
+      <button>Ver Parrilla</button>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>Email: contacto@networkmediagroup.pe</p>
+      <p>País: Perú</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Network Media Group Perú. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
